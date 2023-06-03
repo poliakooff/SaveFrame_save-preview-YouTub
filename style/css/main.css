@@ -1,0 +1,215 @@
+.logo img {
+  margin: 0;
+  width: 200px;
+}
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+.downloader {
+  display: none;
+  background-color: #ff5107;
+  background-image: url(/images/background/arrow-down.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 55%;
+  padding: 1vw;
+}
+.downloader__inner {
+  background-color: #222222;
+  box-shadow: 0 0 10px #000000;
+  margin: auto;
+  margin-bottom: 50px;
+  padding: 15px;
+  max-width: 900px;
+  overflow: hidden;
+}
+.downloader__title {
+  text-shadow: 2px 0 2px #ffffff;
+  font-size: 56px;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 100px 0px 50px 0px;
+}
+.downloader__form {
+  display: flex;
+}
+.downloader__input {
+  box-shadow: 0 0 10px #000000;
+  border-radius: 3px;
+  background-color: #ffffff;
+  border-bottom: #111111 solid 5px;
+  width: 100%;
+  padding: 20px;
+  margin-right: 10px;
+  border: none;
+  outline: none;
+}
+.downloader__input-btn {
+  box-shadow: 0 0 10px #000000;
+  background-color: #ffffff;
+  color: #222222;
+  border-radius: 3px;
+  border: none;
+  margin: 0;
+  width: 100%;
+  padding: 20px 60px 20px 60px;
+  cursor: pointer;
+}
+.downloader__scroll-to {
+  transition-duration: 1s;
+}
+.downloader__iframe {
+  pointer-events: none;
+  background-color: #222222;
+  margin: 5px auto;
+}
+.result {
+  display: none;
+  background-color: #cccccc;
+  padding: 150px 0px;
+  overflow: hidden;
+}
+.result__inner {
+  box-shadow: 0 0 10px #000000;
+  margin: auto;
+  padding: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 900px;
+  overflow: hidden;
+}
+.result__title {
+  background-color: #555555;
+  width: 100%;
+  margin: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.result__title-text {
+  color: #ffffff;
+  font-size: 21px;
+  font-style: italic;
+  padding: 5px 0px;
+  margin: 0px;
+}
+.result__bottom-img {
+  display: flex;
+}
+.result__max-wrap {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  background-color: #555555;
+  display: flex;
+  width: 100%;
+  margin: 5px;
+  overflow: hidden;
+}
+.result__hq-wrap {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  background-color: #555555;
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 5px;
+}
+.result__mq-wrap {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  background-color: #555555;
+  display: flex;
+  width: 75%;
+  flex-wrap: nowrap;
+  margin: 5px;
+}
+.result__mq-wrap:last-child {
+  margin: 5px;
+}
+.result__img-max {
+  margin: auto;
+  padding: 10px;
+  width: 70%;
+}
+.result__img-hq {
+  margin: auto;
+  padding: 10px;
+  width: 50%;
+}
+.result__img-mq {
+  margin: auto;
+  padding: 10px;
+  width: 50%;
+}
+.result__save {
+  margin: auto;
+}
+.result__quality {
+  border-radius: 3px;
+  margin: auto;
+  background-color: #111111;
+  font-style: italic;
+  color: #ffffff;
+  padding: 5px 10px;
+}
+.result__description {
+  color: #ffffff;
+}
+.result__save-link {
+  margin: auto;
+  border-radius: 3px;
+  color: #ffffff;
+  background-color: #339933;
+  padding: 5px 10px;
+}
+.find-other {
+  margin: 30px auto;
+}
+.find-other__link {
+  border-radius: 3px;
+  background-color: #ff5107;
+  color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  padding: 15px;
+}
+.main__section .section-main__inner {
+  margin: auto;
+  padding: 50px 0px;
+}
+.main__section .section-main__title {
+  font-style: italic;
+  text-shadow: 2px 0 2px rgba(0, 0, 0, 0.5);
+  font-size: 50px;
+  margin: auto;
+  margin-bottom: 50px;
+}
+.main__section .section-main__content-inner {
+  display: flex;
+  flex-wrap: wrap;
+}
+.main__section .section-main__content {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 300px;
+}
+.main__section .section-main__img {
+  width: 150px;
+}
+.main__section .section-main__bold {
+  font-size: 25px;
+  font-weight: 600;
+  font-style: italic;
+}
+.main__section .section-main__how {
+  background-color: #cccccc;
+}
+.main__section .section-main__benefits {
+  background-color: #111111;
+  box-shadow: 0 0 10px #000000;
+  color: #ffffff;
+}
+.main__section .section-main__why {
+  background-color: #cccccc;
+  box-shadow: 0 0 10px rgba(218, 218, 218, 0.5);
+}
+.pointer-events {
+  pointer-events: visiblePainted;
+}

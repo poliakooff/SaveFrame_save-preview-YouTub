@@ -1,0 +1,125 @@
+@import "variables";
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: PT Sans;
+  color: @color_secondary-dark;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: @color_white;
+}
+
+input {
+  font-size: 18px;
+}
+
+.active {
+  display: block !important;
+}
+.remove {
+  display: none;
+}
+
+.container {
+  max-width: 1430px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.header--active {
+  position: fixed;
+  width: 100%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  background-color: @color_white;
+
+  a {
+    color: @color_secondary-dark;
+  }
+}
+
+.header {
+  position: relative;
+  position: fixed;
+  width: 100%;
+
+  &__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0px 10px 0px;
+  }
+  &__item {
+    display: inline;
+    font-weight: 600;
+    margin-right: 20px;
+  }
+  &__item:last-child {
+    margin: 0px;
+  }
+}
+
+.logo {
+  margin: auto 0;
+}
+
+.footer {
+  margin-top: auto;
+  background-color: @color_secondary;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+  color: @color_white;
+
+  &__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0px 20px 0px;
+  }
+  &__copyright {
+    text-align: center;
+  }
+  &__copyright-text {
+    margin: auto;
+    color: @color_secondary-dark;
+  }
+}
+
+.social {
+  &__item {
+    display: inline-block;
+    font-weight: 600;
+    margin-right: 50px;
+  }
+  &__item:last-child {
+    margin: 0px;
+  }
+  .icon-email {
+    background-image: url(/images/icons/email.png);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: left;
+    padding: 15px;
+  }
+  .icon-telegram {
+    background-image: url(/images/icons/telegram.png);
+    background-repeat: no-repeat;
+    background-size: 45%;
+    background-position: left;
+    padding: 15px;
+  }
+}
+
+.material-icons {
+  font-size: 50px;
+  color: @color_black;
+}

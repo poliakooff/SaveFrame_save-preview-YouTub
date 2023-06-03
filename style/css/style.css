@@ -1,0 +1,111 @@
+.logo img {
+  margin: 0;
+  width: 200px;
+}
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+body {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: PT Sans;
+  color: #111111;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+input {
+  font-size: 18px;
+}
+.active {
+  display: block !important;
+}
+.remove {
+  display: none;
+}
+.container {
+  max-width: 1430px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.header--active {
+  position: fixed;
+  width: 100%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  background-color: #ffffff;
+}
+.header--active a {
+  color: #111111;
+}
+.header {
+  position: relative;
+  position: fixed;
+  width: 100%;
+}
+.header__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0px 10px 0px;
+}
+.header__item {
+  display: inline;
+  font-weight: 600;
+  margin-right: 20px;
+}
+.header__item:last-child {
+  margin: 0px;
+}
+.logo {
+  margin: auto 0;
+}
+.footer {
+  margin-top: auto;
+  background-color: #222222;
+  box-shadow: 0 0 10px #000000;
+  color: #ffffff;
+}
+.footer__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0px 20px 0px;
+}
+.footer__copyright {
+  text-align: center;
+}
+.footer__copyright-text {
+  margin: auto;
+  color: #111111;
+}
+.social__item {
+  display: inline-block;
+  font-weight: 600;
+  margin-right: 50px;
+}
+.social__item:last-child {
+  margin: 0px;
+}
+.social .icon-email {
+  background-image: url(/images/icons/email.png);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-position: left;
+  padding: 15px;
+}
+.social .icon-telegram {
+  background-image: url(/images/icons/telegram.png);
+  background-repeat: no-repeat;
+  background-size: 45%;
+  background-position: left;
+  padding: 15px;
+}
+.material-icons {
+  font-size: 50px;
+  color: #000000;
+}
